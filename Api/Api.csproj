@@ -30,4 +30,10 @@
       <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="README.md">
+        <DependentUpon>.dockerignore</DependentUpon>
+      </None>
+    </ItemGroup>
+
 </Project>
